@@ -28,4 +28,12 @@ void main() {
 
   var thing2 = func3("John");
   print(thing2);
+
+  // ignore default arguments
+  func4(String name1, {name2 = "friends"}) {
+    return "Hello $name1 and $name2";
+  }
+
+  var thing3 = func3("John", name2: "Bill");
+  print(thing3);
 }
