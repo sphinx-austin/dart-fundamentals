@@ -14,4 +14,11 @@ void main() {
   d = 78;
   f = d + double.parse(e);
   print("$d + $e = $f");
+
+  // int to String
+  var g, h, i;
+  g = 40;
+  h = "1";
+  i = g.toString() + h; //401
+  print("$g + $h = $i");
 }
