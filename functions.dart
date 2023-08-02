@@ -20,4 +20,11 @@ void main() {
 
   var thing1 = funct("Keith");
   print(thing1);
+
+  func3(String name1, {name2 = "friends"}) {
+    return "Hello $name1 and $name2";
+  }
+
+  var thing2 = func3("John");
+  print(thing2);
 }
