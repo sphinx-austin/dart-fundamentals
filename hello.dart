@@ -17,7 +17,11 @@ void main() {
   const String fullName = "Jake Stone"; // same during compile time and runtime
   final String nickName = "JS"; // changes during runtime e.g date
 
-  print("Hello there, my name is " + name + " and I am " + y + " years old.");
+  print("Hello there, my name is " +
+      name +
+      " and I am " +
+      x.toString() +
+      " years old.");
 
   // DATA TYPES
   // Numbers
